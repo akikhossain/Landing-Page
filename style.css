@@ -21,22 +21,17 @@ nav a:link:last-child {
   padding: 20px 40px;
   color: white;
 }
-a:link {
+a:link,
+a:visited {
   color: #f5f5f5;
   text-decoration: none;
 }
 
-a:visited {
-  color: #1098ad;
-}
-
-a:hover {
+a:hover,
+a:active {
   color: orangered;
   font-weight: bold;
   text-decoration: underline orangered;
-}
-
-a:active {
   background-color: black;
   font-style: italic;
 }
@@ -66,4 +61,5 @@ a:active {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 25px;
 }
