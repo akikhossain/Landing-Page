@@ -5,7 +5,18 @@
 }
 
 body {
-  background-image: url(https://img.freepik.com/free-photo/royal-blue-colour-flower-pattern-background-abstract-banner-multipurpose-design_1340-17115.jpg?w=1800&t=st=1687465276~exp=1687465876~hmac=0ef84899e47dbb22f03fa70deb7e8646c39248d661de3011f359bcb23067b23d);
+  background-color: rgb(63, 207, 123);
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: cornflowerblue;
+  margin-top: 50px;
+  margin-left: 50px;
+  height: 800px;
+  width: 1800px;
+  background-image: url(https://i.pinimg.com/564x/fe/6f/77/fe6f7709d3aa2a032317d9e0fa99a183.jpg);
+  position: relative;
 }
 
 nav a:link {
@@ -29,17 +40,20 @@ a:visited {
 
 a:hover,
 a:active {
-  color: orangered;
+  color: rgb(0, 195, 255);
   font-weight: bold;
-  text-decoration: underline orangered;
-  background-color: black;
-  font-style: italic;
+  text-decoration: underline rgb(0, 195, 255);
 }
 
 .main-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.head {
+  color: rgb(19, 194, 121);
+  font-style: italic;
 }
 .navbar__search {
   position: relative;
@@ -62,4 +76,66 @@ a:active {
   justify-content: space-between;
   align-items: center;
   font-size: 25px;
+}
+
+.mediam {
+  color: white;
+  display: inline-block;
+  position: absolute;
+  top: 25%;
+  left: 20%;
+}
+
+.grow {
+  margin-bottom: 30px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.btn {
+  background-color: rgb(32, 212, 143);
+  margin-bottom: 35px;
+  font-size: 15px;
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 25px;
+  width: 200px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  color: white;
+  background-color: blueviolet;
+  cursor: pointer;
+}
+.lower-nav {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.first-flex {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.agency {
+  color: rgb(247, 247, 247);
+  margin-top: 140px;
+  margin-right: 50px;
+
+  height: 150px;
+  padding: 16px 32px;
+  border-radius: 10% 30% 50% 70%;
+
+  border: 10px solid rgba(11, 137, 146, 0.5);
+}
+.right {
+  display: flex;
+  position: absolute;
+  top: 10%;
+  right: 10%;
 }
